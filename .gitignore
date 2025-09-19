@@ -66,6 +66,12 @@ desktop.ini
 # Logs
 *.log
 
+# Security/certificates (do not commit secrets)
+certificate/
+*.pem
+*.key
+*.crt
+
 # Archives and packages
 *.zip
 *.tar
