@@ -16,6 +16,12 @@ This repository demonstrates an end-to-end, MQTT-only image classification workf
 
 Note: The AWS IoT Python SDK v2 is included as a git submodule in `connect_device_package/aws-iot-device-sdk-python-v2`.
 
+## Demo videos
+- **Video demo 1**: [End-to-end pipeline demo 1](https://iith-my.sharepoint.com/:v:/g/personal/cs23mtech12009_iith_ac_in/ESx4uJiuJ1hOr7YgNt5EJzUBDUxfrPzX4XNwUnbMIg5O7A?e=Px3AXO)
+- **Video demo 2**: [End-to-end pipeline demo 2](https://iith-my.sharepoint.com/:v:/g/personal/cs23mtech12009_iith_ac_in/EaaNO33SMK9FrlA0ZyNRDLcBS-JOft0Dp7QoSlZ8fYe4Gw?e=evmhLA)
+
+These videos show the publisher sending an image, Lambda invoking SageMaker, and the subscriber printing `{label, confidence}`.
+
 ## Prerequisites
 - Python 3.8+
 - AWS account with permissions for IoT Core, Lambda, and SageMaker
